@@ -3,7 +3,7 @@ import AthleteCard from './AthleteCard';
 
 function CardList({ athletes }) {
   return (
-    <div className="grid">
+    <main className="flex justify-center">
       {athletes.map((athlete) => {
         return (
           <AthleteCard
@@ -13,7 +13,7 @@ function CardList({ athletes }) {
           />
         );
       })}
-    </div>
+    </main>
   );
 }
 
